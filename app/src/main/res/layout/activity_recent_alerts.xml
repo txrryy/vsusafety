@@ -1,0 +1,31 @@
+<!-- In activity_recent_alerts.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Custom Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textRecentAlerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Alerts"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/alertMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No recent alerts"
+        android:textSize="16sp" />
+</LinearLayout>
